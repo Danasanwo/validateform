@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main/style.css">
+</head>
+
+<body>
+    <div id="run">
+        <h1> Sign up</h1>
+        <h3>join our amazing team</h3>
+
+        <form action="" method="" id="myForm">
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname">
+
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+            <label for="Number">Phone Number:</label>
+            <input type="text" name="Number" id="Number">
+
+            <p>Skills:</p>
+            <label for="frontend">frontend</label>
+            <input type="checkbox" name="frontend" value="frontend" id="frontend" class="skills">
+            <label for="backend">backend</label>
+            <input type="checkbox" name="backend" value="backend" class="skills">
+            <label for="ui/ux">ux design</label>
+            <input type="checkbox" name="ui/ux" class="skills">
+            <label for="product">product management</label>
+            <input type="checkbox" name="product" class="skills">
+
+            <br>
+            <label for="gender">Choose your gender</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select>
+
+            <label for="pich"> Tell us why you would like to work with us: </label>
+            <textarea name="pitch" id="pitch" cols="30" rows="10" maxlength="400"></textarea>
+
+            <p id="pass"></p>
+            <label for="mypassword">Password</label>
+            <input type="password" name="password" id="mypassword">
+
+            <p id="check"></p>
+            <label for="confirm">Confirm Password:</label>
+            <input type="password" name="confirm" id="confirm">
+
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

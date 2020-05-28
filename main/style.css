@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+p {
+  margin: 5px auto;
+}
+
+#run {
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+input,
+textarea,
+select {
+  display: block;
+  margin: 4px auto 10px;
+  border: 0;
+  outline: 0;
+}
+
+input,
+select {
+  border-width: 0 0 2px 0;
+  border-color: black;
+  border-style: solid;
+  width: 30%;
+  height: 5vh;
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+
+input:focus {
+  border: 2px solid black;
+  width: 32%;
+}
+
+textarea {
+  border: 2px solid black;
+  width: 30%;
+}
+
+.skills {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: initial;
+}
+
+form {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#submit {
+  border: 2px solid black;
+}
+
+#submit:hover {
+  background-color: #ffbb00;
+}
+/*# sourceMappingURL=style.css.map */
